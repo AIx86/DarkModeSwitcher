@@ -27,7 +27,7 @@ jobs:
         run: ls -R
       
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: win-x64-framework-dependent
           path: dist/win-x64-framework-dependent/DarkModeSwitcher.exe
