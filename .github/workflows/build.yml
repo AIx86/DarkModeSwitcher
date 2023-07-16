@@ -30,5 +30,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: win-x64-framework-dependent
-          path: ./dist/win-x64-framework-dependent
+          path: dist/win-x64-framework-dependent
       
