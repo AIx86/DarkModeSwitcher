@@ -74,7 +74,6 @@ static class Program
         AnsiConsole.WriteLine();
     }
 
-
     static async Task WriteToWindowsRegistry(bool appsLightMode, bool systemLightMode)
     {
         const string path = "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize";
